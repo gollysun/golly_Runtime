@@ -14,6 +14,8 @@
 		1833430E2084CF8E005D11C5 /* golly_RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833430D2084CF8E005D11C5 /* golly_RuntimeTests.m */; };
 		183343192084CF8E005D11C5 /* golly_RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183343182084CF8E005D11C5 /* golly_RuntimeUITests.m */; };
 		1833432E2084D0D6005D11C5 /* GollyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833432D2084D0D6005D11C5 /* GollyViewController.m */; };
+		183343312084D256005D11C5 /* GollyMessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 183343302084D256005D11C5 /* GollyMessageForwarding.m */; };
+		183343342084D75F005D11C5 /* GollyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 183343332084D75F005D11C5 /* GollyAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		1833431A2084CF8E005D11C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1833432C2084D0D6005D11C5 /* GollyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GollyViewController.h; sourceTree = "<group>"; };
 		1833432D2084D0D6005D11C5 /* GollyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GollyViewController.m; sourceTree = "<group>"; };
+		1833432F2084D256005D11C5 /* GollyMessageForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GollyMessageForwarding.h; sourceTree = "<group>"; };
+		183343302084D256005D11C5 /* GollyMessageForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GollyMessageForwarding.m; sourceTree = "<group>"; };
+		183343322084D75F005D11C5 /* GollyAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GollyAnimation.h; sourceTree = "<group>"; };
+		183343332084D75F005D11C5 /* GollyAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GollyAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,10 @@
 		1833432A2084D0A9005D11C5 /* MessageForwarding */ = {
 			isa = PBXGroup;
 			children = (
+				1833432F2084D256005D11C5 /* GollyMessageForwarding.h */,
+				183343302084D256005D11C5 /* GollyMessageForwarding.m */,
+				183343322084D75F005D11C5 /* GollyAnimation.h */,
+				183343332084D75F005D11C5 /* GollyAnimation.m */,
 			);
 			path = MessageForwarding;
 			sourceTree = "<group>";
@@ -278,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1833432E2084D0D6005D11C5 /* GollyViewController.m in Sources */,
+				183343342084D75F005D11C5 /* GollyAnimation.m in Sources */,
 				183343042084CF8E005D11C5 /* main.m in Sources */,
+				183343312084D256005D11C5 /* GollyMessageForwarding.m in Sources */,
 				183342F62084CF8E005D11C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
