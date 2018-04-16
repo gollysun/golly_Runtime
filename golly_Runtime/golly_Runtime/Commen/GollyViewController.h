@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GollyViewController.h
 //  golly_Runtime
 //
 //  Created by 孙国立 on 2018/4/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GollyViewController : UIViewController
 
 @end
-
